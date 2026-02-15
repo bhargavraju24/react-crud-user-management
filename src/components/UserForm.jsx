@@ -1,5 +1,7 @@
 import  {useState, useEffect } from "react";
-import userFields  from "../config/formFields";
+import userFields from "../config/formFields.js";
+
+
 
 function UserForm({ onSubmit, editingUser }) {
 

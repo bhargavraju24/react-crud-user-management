@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import UserForm from "./components/UserForm";
 import UserList from "./components/UserList";
+import { getUsers } from "./services/api.js";
+
 import { getUsers, addUser, updateUser, deleteUser } from "./services/api";
 import "./style.css";
 
