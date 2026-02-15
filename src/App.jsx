@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import UserForm from "./components/UserForm";
 import UserList from "./components/UserList";
-import { getUsers } from "./services/api.js";
-import { addUser } from "./services/api.js";
-import { updateUser } from "./services/api.js";
-import { deleteUser } from "./services/api.js";
+import  getUsers  from "./services/api.js";
+import  addUser  from "./services/api.js";
+import  updateUser  from "./services/api.js";
+import  deleteUser  from "./services/api.js";
 import "./style.css";
 
 function App() {
